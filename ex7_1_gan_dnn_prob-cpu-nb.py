@@ -155,7 +155,8 @@ class GAN:
 
     def gen_G(self):
         ni_D = self.ni_D
-        nh_G = self.nh_D
+        # nh_G = self.nh_D
+        nh_G = self.nh_G
 
         G = models.Sequential()
         G.add(Reshape((ni_D, 1), input_shape=(ni_D,)))
