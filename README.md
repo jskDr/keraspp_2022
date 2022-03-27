@@ -17,4 +17,5 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 ```
 
+## 책표지
 ![책표지 - 케라스로 구현하는 딥러닝](https://user-images.githubusercontent.com/2564509/160268272-7bcff1d1-6eb2-420a-81cc-6e40f893d26c.jpg)
