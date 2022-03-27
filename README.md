@@ -1,4 +1,5 @@
-# keraspp_2022
+# 케라스로 구현하는 딥러닝, In Tensorflow 2
+## keraspp_2022
 Python Codes in My Book - Keras
 
 ## colab_py37_k28 폴드
@@ -15,3 +16,5 @@ GPU가 있지만 cpu로 돌려야 하는 경우에 사용하는 코드
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 ```
+
+![책표지 - 케라스로 구현하는 딥러닝](https://user-images.githubusercontent.com/2564509/160268272-7bcff1d1-6eb2-420a-81cc-6e40f893d26c.jpg)
