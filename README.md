@@ -1,24 +1,19 @@
 # 케라스로 구현하는 딥러닝, In Tensorflow 2
-## keraspp_2022
-Python Codes in My Book - Keras
-
-## colab_py37_k28 폴드
+## 폴드 설명
+### colab_py37_k28 폴드
 파이썬 3.7, 텐서플로/케라스 2.8을 지원하는 구글 콜랩에서 실행하는 코드
 - 파일명 끝에 -colab이 붙은 경우는 아래의 수정이 필요한 노트북임
 ```
 from keras import dataset ==> from tensorflow.keras import dataset
 ```
 
-## cpu_only 폴드
+### cpu_only 폴드
 GPU가 있지만 cpu로 돌려야 하는 경우에 사용하는 코드 
 - 노트북 앞에 아래 두 줄의 코드를 추가함
 ```
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 ```
-
-## 책표지
-![책표지 - 케라스로 구현하는 딥러닝](https://user-images.githubusercontent.com/2564509/160268272-7bcff1d1-6eb2-420a-81cc-6e40f893d26c.jpg)
 
 ## 추천글
 ### 박재용, LG전자 책임연구원
@@ -59,6 +54,10 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 ### 어경호, 딥러닝에 관심 많은 직장인 
 평소 딥러닝에 관심이 많았던 직장인입니다. 유튜브나 유료 인터넷 강의, 블로그 등을 봐도 막연하게만 알게되었던 부분들이 훨씬 명확하게 이해가 되었습니다. 단순히 잘 나오는 결과를 보여주는 참고서가 아니라, 헷갈릴 수 있는 부분들을 명확하게 짚고 가는 게 너무 좋았습니다! 개인 개발을 위해 대학원 등록도 고민할 정도로 방향이 잡히지 않았었는데, 이 책을 읽은 후 나침반을 들고 북극성을 찾은 기분입니다. 처음부터 끝까지 정독을 해도 좋고, 필요한 부분을 찾아 봐도 좋을 것 같습니다.
+
+
+## 책표지
+![책표지 - 케라스로 구현하는 딥러닝](https://user-images.githubusercontent.com/2564509/160268272-7bcff1d1-6eb2-420a-81cc-6e40f893d26c.jpg)
 
 
 ## 감사의 말씀
